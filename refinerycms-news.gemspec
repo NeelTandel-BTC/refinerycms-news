@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.test_files        = `git ls-files -- spec/*`.split("\n")
 
   s.add_dependency    'refinerycms-core',     '~> 4.0.0'
-  s.add_dependency    'refinerycms-settings', '~> 3.0.0'
+  s.add_dependency    'refinerycms-settings', '~> 4.0.0'
   s.add_dependency    'friendly_id',          ['~> 5.1', '< 5.3']
   s.add_dependency    'globalize',            ['>= 4.0.0', '< 5.2']
   s.add_dependency    'acts_as_indexed',      '~> 0.8.0'
